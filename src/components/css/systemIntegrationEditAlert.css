@@ -1,0 +1,60 @@
+.show-module-edit-alert {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 11; }
+  .show-module-edit-alert .add-show-module {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 6000;
+    left: 50%;
+    top: 50%;
+    width: 600px;
+    height: 500px;
+    background: #fff;
+    padding: 50px;
+    margin-left: -300px;
+    margin-top: -250px; }
+    .show-module-edit-alert .add-show-module .header {
+      text-align: left;
+      color: #4377CC;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #ccc;
+      font-weight: 700;
+      font-size: 15px; }
+    .show-module-edit-alert .add-show-module p {
+      padding-top: 30px;
+      padding-bottom: 12px;
+      color: #666; }
+    .show-module-edit-alert .add-show-module input {
+      width: 180px; }
+    .show-module-edit-alert .add-show-module .col-xs-7 {
+      position: relative; }
+      .show-module-edit-alert .add-show-module .col-xs-7 .btn-primarys {
+        position: absolute;
+        right: 0;
+        bottom: 0; }
+    .show-module-edit-alert .add-show-module .add-website {
+      position: relative; }
+      .show-module-edit-alert .add-show-module .add-website input {
+        width: 360px; }
+      .show-module-edit-alert .add-show-module .add-website .btn-primarys {
+        position: absolute;
+        right: 0;
+        bottom: 0; }
+    .show-module-edit-alert .add-show-module .modify-show {
+      padding-top: 50px; }
+      .show-module-edit-alert .add-show-module .modify-show .cancel-modifyInfo {
+        margin-left: 15px; }
+  .show-module-edit-alert .close-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px; }
+
+/*# sourceMappingURL=systemIntegrationEditAlert.css.map */

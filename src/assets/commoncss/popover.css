@@ -1,0 +1,267 @@
+/**
+* @file popover.css
+*
+*/
+
+#overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background-color: rgba(0,0,0,.5);
+}
+.popover {
+    width: 85%;
+    margin: 1rem auto;
+    padding: 0;
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    /*display: block!important;*/
+}
+
+#popover-wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 199;
+    width: 100%;
+    height: 100%;
+}
+
+#popover-wrapper .popover {
+    position: relative;
+    top: 30%;
+}
+
+.popover > * {
+    width: 100%;
+}
+
+.popover-title {
+    text-align: center;
+    color: #555;
+    height: 3rem;
+    line-height: 3rem;
+    border-bottom: 1px #e0e0e0 solid;
+}
+
+.popover button {
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.popover .button-cta-group-2 button:first-child {
+    border-bottom-left-radius: .6rem;
+}
+
+.popover .button-cta-group-2 button:last-child {
+    border-bottom-right-radius: .6rem;
+}
+
+.popover .button-cta-full {
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+}
+
+.popover .button-cta h2 {
+    font-size: 1.5rem;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.popover .button-cta,
+.popover .button-cta-group-2,
+.popover .button-cta-group-2 button {
+    border-color: #e0e0e0;
+}
+
+.popover-content {
+    width: auto;
+    padding: 2rem;
+    color: #555;
+}
+
+.popover-message {
+    text-align: center;
+    font-size: 1.3rem;
+}
+/*手机吐司提示效果*/
+.popover-toast {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10001;
+    height: 100%;
+    width: 100%;
+    background:rgba(0,0,0,0);
+
+}
+#floater {
+    float: left;
+    height: 46%;
+    width: 10%;
+}
+.popover-toast p {
+    clear: both;
+    margin-left: 37%;
+    width: 25%;
+    padding: 1rem 1rem;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    background: rgba(0,0,0,.8);
+
+}
+
+/*页面加载等待效果*/
+.popover-loading {
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:1000;
+    width:100%;
+    height:100%;
+    background: #8a8787;
+    opacity: .6;
+    text-align:center;
+    font-size:1.2rem
+}
+
+.popover-loading .load-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 7rem;
+    width: 7rem;
+    margin-left: -3.5rem;
+    margin-top: -3rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+    background: #000 !important;
+    color: #fff;
+
+}
+
+.popover-loading .load-img img {
+    width: 3rem;
+    height: 3rem;
+}
+.popover-loading .load-img .load-msg {
+    font-size: 1.5rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+
+/**
+*   @file button.css
+*   @author zhaowei@ihandy.cn
+*/
+
+button {
+    text-align: center;
+}
+
+button a {
+    text-decoration: none;
+}
+
+.button-disabled {
+    color: #e0dbdb;
+}
+
+/* call to action 底部大按钮 */
+.button-cta {
+    height: 4.8rem;
+    text-align: center;
+    background-color: #fff;
+    border-top: 1px #b5b5b5 solid;
+}
+
+.button-cta-full {
+    /* 通栏按钮 */
+    width: 100%;
+}
+
+.button-cta-group-2, .button-cta-group-3 {
+    /*  通栏按钮组 */
+    border-top: 1px #b5b5b5 solid;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.button-cta-group-2 .button-cta, .button-cta-group-3 .button-cta {
+    float: left;
+    border: none;
+}
+
+.button-cta-group-2 button:first-child {
+    width: 50%;
+    border-right: 1px #b5b5b5 solid;
+}
+
+.button-cta-group-2 button:last-child {
+    width: 50%;
+}
+
+.button-cta-group-3 button:first-child {
+    width: 30%;
+}
+
+.button-cta-group-3 button:last-child {
+    width: 30%;
+}
+
+.button-cta-group-3 button:nth-child(2) {
+    width: 40%;
+    border-left: 1px #b5b5b5 solid;
+    border-right: 1px #b5b5b5 solid;
+}
+
+.button-cta h2 {
+    font-size: 1.8rem;
+    line-height: 4.8rem;
+    text-align: center;
+    color: #0061b2;
+}
+
+.button-cta-disabled h2 {
+    color: #e0dbdb;
+}
+
+/* outline button 轮廓按钮 */
+
+.button-outline {
+    border: 1px solid #757576;
+    border-radius: .5rem;
+    height: 2.6rem;
+    font-size: 1.1rem;
+    color:#444444;
+    background-color: #fff;
+    padding: 0 .7rem;
+    line-height: 2.6rem;
+}
+
+.button-outline a {
+    color:#444444;
+}
+
+.button-outline.button-disabled {
+    border-color: #e0dbdb;
+    color: #e0dbdb;
+}
+
+.button-outline-group button {
+    margin: 0 .3rem;
+}
+
+.button-outline-group button:first-child {
+    margin-left: 0;
+}
+
+.button-outline-group button:last-child {
+    margin-right: 0;
+}

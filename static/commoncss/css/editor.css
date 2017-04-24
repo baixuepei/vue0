@@ -1,0 +1,31 @@
+/*editor.scss*/
+.ql-editor {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei'; }
+  .ql-editor h1, .ql-editor h2, .ql-editor h3, .ql-editor h4, .ql-editor h5, .ql-editor h6 {
+    font-weight: 600; }
+  .ql-editor h1 {
+    line-height: 80px; }
+  .ql-editor h2 {
+    line-height: 70px; }
+  .ql-editor h3 {
+    line-height: 50px; }
+  .ql-editor h4, .ql-editor h5, .ql-editor h6 {
+    line-height: 40px; }
+  .ql-editor p {
+    font-size: 14px;
+    line-height: 35px;
+    text-indent: 2em; }
+    .ql-editor p img {
+      width: 80%;
+      height: 80%;
+      vertical-align: middle; }
+  .ql-editor pre {
+    text-indent: 0;
+    line-height: 30px;
+    padding: 10px 45px; }
+  .ql-editor ul > li {
+    line-height: 30px; }
+    .ql-editor ul > li > strong {
+      padding-right: 6px; }
+
+/*# sourceMappingURL=editor.css.map */

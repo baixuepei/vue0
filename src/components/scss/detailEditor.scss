@@ -1,0 +1,48 @@
+.body-detail-editor,.body-programa-detail-list {
+    .header {
+        border-bottom: 3px solid #EDEEF3;
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+        >h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        .operate-btn-group {
+            .cancel {
+                margin-right: 20px;
+            }
+        }
+    }
+    .content-group {
+        cursor: pointer;
+        >h3 {
+            font-size: 14px;
+            color: #BDBEC4;
+        }
+        > p {
+            padding-top: 10px;
+            padding-bottom: 20px;
+
+            > input {
+                &.title-input {
+                    width: 95%;
+                }
+                height: 33px;
+                padding: 5px;
+            }
+            >textarea {
+                width: 100%;
+                resize : none;
+            }
+        }
+    }
+    .detail-editor {
+        height: 54%;
+        overflow: auto;
+        font-size: 14px;
+        color: #414349;
+    }
+    .detail-content {
+        height: 500px;
+    }
+}

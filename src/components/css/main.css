@@ -1,0 +1,20 @@
+.body-main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent; }
+  .body-main > .row {
+    height: inherit;
+    margin-top: 76px; }
+    .body-main > .row > .col-md-2 {
+      width: 15%;
+      height: inherit;
+      background: #393939;
+      padding: 0; }
+    .body-main > .row > .col-md-10 {
+      width: 85%;
+      padding-right: 25px;
+      height: inherit; }
+
+/*# sourceMappingURL=main.css.map */

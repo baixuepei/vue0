@@ -1,0 +1,99 @@
+.user-edit-alert{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    z-index:1000;
+    left:0;
+    top:0;
+    display: block;
+    .user-edit{
+        width: 680px;
+        height: 600px;
+        position: fixed;
+        top:50%;
+        left:50%;
+        margin-top:-300px;
+        margin-left: -340px;
+        background: #eee;
+        padding: 30px 50px;
+        background:#fff;
+        >img{
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .header{
+            text-align: left;
+            color: #4377CC;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ccc;
+            font-weight: 700;
+            font-size: 15px;
+        }
+        .clearfix{
+            p{
+                padding-top: 18px;
+                padding-bottom: 12px;
+                color: #666;
+            }
+            .require-flag{
+                color:red;
+            }
+            textarea{
+                resize: none;
+                height: 80px;
+            }
+            .dropdown-menu{
+                height: 260px;
+                overflow: auto;
+            }
+            .dropdown{
+                button,.dropdown-menu{
+                    width: 100% !important;
+                }
+            }
+            .select-role{
+                margin-top:18px;
+                height: 210px;
+                overflow: auto;
+                p{
+                    padding:10px 10px 0;
+                    background: #eee;
+                }
+                ul{
+                    background: #eee;
+                    padding:0 10px 10px;
+                    li{
+                        height: 30px;
+                        line-height: 30px;
+                        overflow: hidden;
+                        background: #bbb;
+                        border-radius: 6px;
+                        -webkit-border-radius: 6px;
+                        padding:0 10px;
+                        margin:10px 10px 0 0;
+                        img{
+                            vertical-align: middle;
+                            cursor: pointer;
+
+                        }
+                    }
+                }
+
+            }
+        }
+        .modify-show{
+            padding-top: 26px;
+            padding-bottom: 10px;
+            .cancel-modifyInfo {
+                margin-left: 15px;
+            }
+        }
+
+    }
+}
+
+

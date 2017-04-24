@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="21px" viewBox="0 0 24 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>home</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M41.4766052,96.8505476 C40.6606577,96.1051263 39.338477,96.1044579 38.5217978,96.8505477 L30.4291678,104.243693 C30.019601,104.617859 30.1263782,104.921181 30.694626,104.92118 L32.036983,104.92118 C32.5931582,104.92118 33.0440274,105.372296 33.0440274,105.930092 L33.0440274,111.878364 C33.0440274,112.435571 33.4910948,112.887276 34.0444253,112.887276 L45.9539777,112.887276 C46.5064823,112.887276 46.9543757,112.43616 46.9543757,111.878364 L46.9543757,105.930092 C46.9543757,105.372885 47.3931723,104.92118 47.96142,104.92118 L49.3037768,104.92118 C49.859952,104.92118 49.9794139,104.618418 49.5692348,104.243693 L41.4766052,96.8505476 Z M37.7981148,107.471933 L41.7139683,107.471933 L41.7139683,112.887276 L37.7981148,112.887276 L37.7981148,107.471933 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="portal_home" transform="translate(-28.000000, -94.000000)">
+            <g id="nav">
+                <g id="Group-2">
+                    <g id="home">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#478EFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

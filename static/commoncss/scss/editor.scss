@@ -1,0 +1,43 @@
+/*editor.scss*/
+.ql-editor {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei';
+    h1,h2,h3,h4,h5,h6 {
+        font-weight: 600;
+    }
+    h1 {
+        line-height: 80px;
+    }
+    h2 {
+        line-height: 70px;
+    }
+    h3 {
+        line-height: 50px;
+    }
+    h4,h5,h6 {
+        line-height: 40px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 35px;
+        text-indent: 2em;
+        img {
+            width: 80%;
+            height: 80%;
+            vertical-align: middle;
+        }
+    }
+    pre {
+        text-indent: 0;
+        line-height: 30px;
+        padding: 10px 45px;
+    }
+    ul {
+        >li {
+            line-height: 30px;
+            >strong {
+                padding-right: 6px;
+            }
+        }
+    }
+
+}

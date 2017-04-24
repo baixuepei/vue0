@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,8BAAc;EACV,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,GAAG;EACT,GAAG,EAAE,GAAG;EACR,SAAS,EAAE,qBAAoB;EAC/B,iBAAiB,EAAE,qBAAoB;EACvC,cAAc,EAAE,qBAAoB;EACpC,uCAAQ;IACJ,OAAO,EAAE,KAAK;IACd,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE,IAAI;IACZ,SAAS,EAAE,IAAI;IACf,MAAM,EAAE,SAAS",
+"sources": ["../scss/userManagement.scss"],
+"names": [],
+"file": "userManagement.css"
+}

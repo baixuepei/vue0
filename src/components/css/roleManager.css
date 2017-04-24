@@ -1,0 +1,31 @@
+.body-role-list {
+  padding-top: 10px; }
+  .body-role-list .header {
+    border-bottom: 3px solid #EDEEF3;
+    padding-bottom: 45px; }
+    .body-role-list .header > h1 {
+      font-size: 24px;
+      color: #333; }
+  .body-role-list .role-list-wrap {
+    overflow: auto;
+    width: 100%;
+    padding-right: 10px; }
+    .body-role-list .role-list-wrap ul > li {
+      text-align: center; }
+      .body-role-list .role-list-wrap ul > li:nth-of-type(odd) {
+        background-color: #eeeff4; }
+  .body-role-list .nav-paging ul {
+    margin: 13px auto 18px; }
+  .body-role-list .role-list-ul {
+    height: 50px;
+    line-height: 50px;
+    padding-top: 7px; }
+  .body-role-list .role-list-ul li, .body-role-list .role-list-wrap li {
+    cursor: pointer;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    text-align: center; }
+
+/*# sourceMappingURL=roleManager.css.map */

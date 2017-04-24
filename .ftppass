@@ -1,0 +1,19 @@
+{
+  "keyMain": {
+    "user": "root",
+    "pass": "guipwd_01"
+  },
+  "keyShort": "root:guipwd_01",
+  "privateKey": {
+    "user": "root"
+  },
+  "privateKeyEncrypted": {
+    "user": "root",
+    "passphrase": "guipwd_01"
+  },
+  "privateKeyCustom": {
+    "user": "root",
+    "passphrase": "guipwd_01",
+    "keyLocation": "/home/apache-tomcat-7.0.57/webapps/dist-test/"
+  }
+}

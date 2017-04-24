@@ -1,0 +1,73 @@
+.role-edit-alert {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  display: block; }
+  .role-edit-alert .role-edit {
+    width: 800px;
+    height: 620px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -310px;
+    margin-left: -400px;
+    background: #eee;
+    padding: 30px 50px;
+    background: #fff; }
+    .role-edit-alert .role-edit > img {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 10px;
+      cursor: pointer; }
+    .role-edit-alert .role-edit .header {
+      text-align: left;
+      color: #4377CC;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #ccc;
+      font-weight: 700;
+      font-size: 15px; }
+    .role-edit-alert .role-edit .clearfix p {
+      padding-top: 18px;
+      padding-bottom: 12px;
+      color: #666; }
+    .role-edit-alert .role-edit .clearfix textarea {
+      resize: none; }
+    .role-edit-alert .role-edit .clearfix .required-flag {
+      color: red; }
+    .role-edit-alert .role-edit .limit-manage .limit-header {
+      color: #4377CC;
+      padding: 15px 0;
+      font-weight: 700;
+      font-size: 15px; }
+    .role-edit-alert .role-edit .limit-manage .limit-content {
+      height: 260px;
+      border: 1px solid #bbb;
+      overflow: auto;
+      padding: 0 20px;
+      font-size: 18px; }
+      .role-edit-alert .role-edit .limit-manage .limit-content .title {
+        padding-top: 10px; }
+      .role-edit-alert .role-edit .limit-manage .limit-content > .module:last-child .line-list:last-child {
+        border: none; }
+      .role-edit-alert .role-edit .limit-manage .limit-content .line-list {
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 10px; }
+        .role-edit-alert .role-edit .limit-manage .limit-content .line-list .sub-title {
+          font-size: 15px;
+          padding: 10px 0 0; }
+        .role-edit-alert .role-edit .limit-manage .limit-content .line-list div.checkbox span {
+          padding-left: 3px;
+          font-size: 14px; }
+        .role-edit-alert .role-edit .limit-manage .limit-content .line-list li {
+          cursor: pointer; }
+    .role-edit-alert .role-edit .limit-manage .modify-show {
+      padding-top: 23px; }
+      .role-edit-alert .role-edit .limit-manage .modify-show .cancel-modifyInfo {
+        margin-left: 15px; }
+
+/*# sourceMappingURL=roleManagerEditorAlert.css.map */

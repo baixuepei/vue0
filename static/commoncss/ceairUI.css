@@ -1,0 +1,276 @@
+/*button*/
+.btn-default {
+    width: 140px;
+    height: 40px;
+    line-height: 28px;
+    border: #4483ea;
+    color: #fff;
+    background: #4483ea; }
+.btn-default:hover {
+    border: #4483ea !important;
+    color: #fff !important;
+    background: #4377cb !important; }
+.btn-default:active, .btn-default:focus, .btn-default:visited {
+    border: #4483ea !important;
+    color: #fff !important;
+    background: #4483ea !important; }
+
+.btn-small {
+    width: 85px;
+    height: 36px;
+    line-height: 28px;
+    color: #fff;
+    background: #4483ea; }
+.btn-small:hover {
+    color: #fff !important;
+    background: #4377cb !important; }
+.btn-small:active, .btn-small:focus, .btn-small:visited {
+    color: #fff !important;
+    background: #4483ea !important; }
+
+.btn-default-info {
+    width: 140px;
+    height: 40px;
+    line-height: 28px;
+    color: #4483ea;
+    background: #fff;
+    border: 1px solid #4483ea; }
+.btn-default-info:hover {
+    color: #4483ea;
+    background: #fff; }
+.btn-default-info:active, .btn-default-info:focus, .btn-default-info:visited {
+    color: #4483ea !important;
+    background: #fff !important; }
+
+.btn-small-info {
+    width: 85px;
+    height: 36px;
+    line-height: 28px;
+    color: #4483ea;
+    background: #fff;
+    border: 1px solid #4483ea; }
+.btn-small-info:hover {
+    color: #4483ea;
+    background: #fff; }
+.btn-small-info:active, .btn-small-info:focus, .btn-small-info:visited {
+    color: #4483ea;
+    background: #fff; }
+
+.btn-warning {
+    height: 40px;
+    line-height: 28px;
+    color: #fd5c48;
+    background: transparent;
+    border-color: #fd5c48; }
+.btn-warning:hover, .btn-warning:active, .btn-warning:focus, .btn-warning:visited {
+    color: #fd5c48 !important;
+    background: transparent !important;
+    border-color: #fd5c48 !important; }
+
+.btn-icon-info {
+    width: 140px;
+    height: 40px;
+    line-height: 28px;
+    margin-left: 20px;
+    color: #fff; }
+.btn-icon-info > button:first-child {
+    width: 40px;
+    height: 100%;
+    background: #be841b; }
+.btn-icon-info > button:last-child {
+    width: 100px;
+    height: 100%;
+    background: #d3a95f; }
+.btn-icon-info > button:last-child:hover {
+    background: #be841b; }
+
+.btn-icon-danger {
+    width: 140px;
+    height: 40px;
+    line-height: 28px;
+    margin-left: 20px;
+    color: #fff; }
+.btn-icon-danger > button:first-child {
+    width: 40px;
+    height: 100%;
+    background: #ea4d3a; }
+.btn-icon-danger > button:last-child {
+    width: 100px;
+    height: 100%;
+    background: #fd5c48; }
+.btn-icon-danger > button:last-child:hover {
+    background: #ea4d3a; }
+
+.btn-remark {
+    width: 55px;
+    color: #d3a95f;
+    background: #fff;
+    border: 1px solid #ddb670;
+    position: relative; }
+.btn-remark.mark-triangle {
+    background-image: url("../../static/images/botton_triangle.png");
+    background-position: top right;
+    background-repeat: no-repeat; }
+.btn-remark:hover {
+    color: #d3a95f;
+    background: #eeeff4; }
+
+/*tag*/
+.tag-primary {
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 0 5px;
+    color: #fff;
+    background: #4483ea; }
+.tag-primary > .text {
+    padding-right: 30px;
+    padding-left: 10px; }
+.tag-primary > a img {
+    margin-top: 3px; }
+
+/*checkbox*/
+.checkbox {
+    text-align: center;
+    min-height: 1px; }
+.checkbox.active > a {
+    background-position: left !important; }
+.checkbox a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../../static/images/checked.png") no-repeat right;
+    vertical-align: middle; }
+.checkbox .checkbox-title {
+    color: #9fa2ab;
+    font-weight: bold;
+    margin-left: 7px; }
+
+/*table*/
+.table-hs  tr:hover {
+    background: #eeeff4; }
+
+/*input*/
+.input-lg {
+    padding: 0;
+    height: 100%;
+    line-height: 55px;
+    font-size: 14px; }
+.input-lg .col-xs-7 {
+    padding: 10px 0; }
+.input-lg .col-xs-7 input {
+    width: 90% !important; }
+
+.input-sm {
+    width: 30%;
+    height: 100%;
+    line-height: 55px;
+    padding: 0; }
+.input-sm > span {
+    margin-right: 10px; }
+.input-sm > div {
+    width: 80%;
+    height: 100%;
+    position: relative; }
+.input-sm > div > .col-xs-5 {
+    width: 47%;
+    height: 100%;
+    padding: 10px 0; }
+.input-sm > div > .col-xs-5 input {
+    display: inline-block; }
+
+/*dropdown*/
+.dropdown-lg {
+    width: 90%;
+    text-align: left;
+    background: #fff;
+    border: 1px solid #ccc; }
+.dropdown-lg > span {
+    height: 100%; }
+.dropdown-lg > span > img {
+    padding: 6px 0; }
+
+.dropdown-md {
+    width: 140px;
+    text-align: left;
+    border: 0 none;
+    border-redius: 0;
+    background: #eeeff4;
+    }
+.dropdown-md > span {
+    height: 100%; }
+.dropdown-md > span.pull-left {
+    padding-top: 11px;
+}
+.dropdown-md > span > img {
+    padding: 12px 0; }
+
+.dropdown-text {
+    margin-left: 140px;
+    width: 15%; }
+.dropdown-text .btn-remark {
+    position: relative; }
+.dropdown-text .dropdown-menu {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0 7px #eeeff4;
+    position: absolute;
+    z-index: 66;
+    background: #fff;
+    line-height: normal;
+    top: 36px;
+    left: -53px; }
+.dropdown-text .dropdown-menu textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    resize: none;
+    border-color: #eeeff4; }
+.dropdown-text .dropdown-menu input {
+    width: 60%;
+    margin: 0 20%; }
+
+/*textarea*/
+.toggle-textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    resize: none;
+    border-color: #eeeff4; }
+
+/*switch*/
+.switch-attention {
+    width: 100px;
+    height: 40px;
+    padding: 3px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    background: #ddb670; }
+.switch-attention:hover {
+    cursor: pointer; }
+.switch-attention.markFlagT {
+    background: #ddb670; }
+.switch-attention.markFlagT .switch-attention-slide {
+    right: 3px; }
+.switch-attention.markFlagF {
+    background: #3b3b3d; }
+.switch-attention.markFlagF .switch-attention-slide {
+    right: 50px; }
+.switch-attention .switch-attention-slide {
+    width: 47px;
+    height: 34px;
+    position: absolute;
+    right: 3px;
+    background: #fff; }
+
+/*white-bg-block*/
+.white-bg-block {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: none;
+    max-height: 200px;
+    overflow-y: auto; }
+
+/*# sourceMappingURL=ceairUI.css.map */

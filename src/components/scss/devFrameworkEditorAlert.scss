@@ -1,0 +1,87 @@
+.dev-framework-edit-alert{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 11;
+    .add-show-module{
+        position: fixed;
+        left:0;
+        top:0;
+        z-index: 6000;
+        left:50%;
+        top:50%;
+        width:600px;
+        height: 450px;
+        background: #fff;
+        padding:50px;
+        margin-left:-300px;
+        margin-top:-225px;
+        .header{
+            text-align: left;
+            color:#4377CC;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ccc;
+            font-weight: 700;
+            font-size:15px
+        }
+        p{
+            padding-top:30px;
+            padding-bottom: 12px;
+            color:#666;
+        }
+        input{
+            width: 180px;
+        }
+        .col-xs-7{
+            position: relative;
+            .btn-primarys{
+                position: absolute;
+                right: 0;
+                bottom:0;
+            }
+        }
+        .add-website{
+            position: relative;
+            margin-bottom:10px;
+            >input{
+                width: 100%;
+            }
+            .add-link{
+                margin-top:20px;
+                >input{
+                    position: absolute;
+                    left: 200px;
+                    top:0;
+                }
+
+            }
+            .btn-primarys{
+                position: absolute;
+                right: 0;
+                bottom:0;
+            }
+        }
+        .add-des{
+            input{
+                width: 100%;
+            }
+        }
+        .modify-show{
+            padding-top:35px;
+            .cancel-modifyInfo{
+                margin-left:15px;
+            }
+        }
+    }
+    .close-btn{
+        position:absolute;
+        right:0;
+        top:0;
+        padding:10px;
+        cursor: pointer;
+    }
+}

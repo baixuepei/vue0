@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="24px" viewBox="0 0 20 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>clipboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M45.0288086,298.645127 C45.0288086,299.19742 44.5725509,299.645142 44.024689,299.645142 L37.9760434,299.645142 C37.4214835,299.645142 36.9719238,299.196429 36.9719238,298.645127 L36.9719238,297 L35.1917808,297 C35.1917808,297 33,297 33,299.173649 C33.0000004,305.46699 33,312.826087 33,312.826087 C33.0000003,315 35.1917807,315 35.1917807,315 L46.8082192,315 C46.8082192,315 49,315 49,312.826087 L49,299.173649 C49,297 46.8082192,297 46.8082192,297 L45.0288086,297 L45.0288086,298.645127 Z M41,295 C38.9631958,295 39,297.007568 39,297.007568 C39,297.007568 37.9999999,297.051147 38,298.025574 C38.0000001,299 39,299 39,299 L43,299 C43,299 44,299.070923 44,298.025574 C43.9999999,296.980225 43,297.007568 43,297.007568 C43,297.007568 43.0368042,295 41,295 Z M42,297 C42,296.447715 41.5522848,296 41,296 C40.4477152,296 40,296.447715 40,297 C40,297.552285 40.4477152,298 41,298 C41.5522848,298 42,297.552285 42,297 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012">
+        <g id="portal_home" transform="translate(-31.000000, -293.000000)">
+            <g id="nav">
+                <g id="Group-2">
+                    <g id="clipboard">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

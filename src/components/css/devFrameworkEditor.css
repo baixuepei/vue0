@@ -1,0 +1,56 @@
+.body-programa-content-editor {
+  padding-right: 10px; }
+  .body-programa-content-editor .operate-btn-group {
+    height: 64px; }
+    .body-programa-content-editor .operate-btn-group .search-input {
+      position: relative; }
+      .body-programa-content-editor .operate-btn-group .search-input input {
+        width: 100%;
+        outline: none;
+        height: 34px;
+        padding: 6px 12px;
+        border: 0;
+        background: #f2f2f2;
+        border-radius: 100px;
+        padding-left: 20px; }
+      .body-programa-content-editor .operate-btn-group .search-input input::-ms-input-placeholder, .body-programa-content-editor .operate-btn-group .search-input input::-webkit-input-placeholder {
+        color: #000;
+        filter: alpha(opacity=20);
+        opacity: .2; }
+      .body-programa-content-editor .operate-btn-group .search-input > img {
+        position: absolute;
+        top: 11px;
+        right: 13px;
+        cursor: pointer; }
+  .body-programa-content-editor .programa-title-editor-list-wrap {
+    overflow: auto;
+    padding-left: 15px;
+    padding-right: 6px; }
+    .body-programa-content-editor .programa-title-editor-list-wrap ul > li:nth-of-type(odd) {
+      background-color: #eeeff4; }
+  .body-programa-content-editor .programa-title-editor-list-ul {
+    border-top: 3px solid #EDEEF3;
+    padding-top: 7px; }
+  .body-programa-content-editor .programa-title-editor-list-ul li, .body-programa-content-editor .programa-title-editor-list-wrap li {
+    cursor: pointer;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px; }
+    .body-programa-content-editor .programa-title-editor-list-ul li .title, .body-programa-content-editor .programa-title-editor-list-wrap li .title {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding-right: 10px; }
+    .body-programa-content-editor .programa-title-editor-list-ul li.title .checkbox, .body-programa-content-editor .programa-title-editor-list-ul li.list .checkbox, .body-programa-content-editor .programa-title-editor-list-wrap li.title .checkbox, .body-programa-content-editor .programa-title-editor-list-wrap li.list .checkbox {
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: left; }
+    .body-programa-content-editor .programa-title-editor-list-ul li.title .pull-right, .body-programa-content-editor .programa-title-editor-list-ul li.list .pull-right, .body-programa-content-editor .programa-title-editor-list-wrap li.title .pull-right, .body-programa-content-editor .programa-title-editor-list-wrap li.list .pull-right {
+      text-align: center; }
+    .body-programa-content-editor .programa-title-editor-list-ul li.title .col-md-2, .body-programa-content-editor .programa-title-editor-list-ul li.list .col-md-2, .body-programa-content-editor .programa-title-editor-list-wrap li.title .col-md-2, .body-programa-content-editor .programa-title-editor-list-wrap li.list .col-md-2 {
+      background: transparent; }
+    .body-programa-content-editor .programa-title-editor-list-ul li.list i, .body-programa-content-editor .programa-title-editor-list-wrap li.list i {
+      margin-right: 15px; }
+
+/*# sourceMappingURL=devFrameworkEditor.css.map */

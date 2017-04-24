@@ -1,0 +1,15 @@
+.user-management .button-group {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%); }
+  .user-management .button-group > button {
+    display: block;
+    width: 260px;
+    height: 65px;
+    font-size: 24px;
+    margin: 28px auto; }
+
+/*# sourceMappingURL=userManagement.css.map */

@@ -1,0 +1,76 @@
+.user-edit-alert {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  display: block; }
+  .user-edit-alert .user-edit {
+    width: 680px;
+    height: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -340px;
+    background: #eee;
+    padding: 30px 50px;
+    background: #fff; }
+    .user-edit-alert .user-edit > img {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 10px;
+      cursor: pointer; }
+    .user-edit-alert .user-edit .header {
+      text-align: left;
+      color: #4377CC;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #ccc;
+      font-weight: 700;
+      font-size: 15px; }
+    .user-edit-alert .user-edit .clearfix p {
+      padding-top: 18px;
+      padding-bottom: 12px;
+      color: #666; }
+    .user-edit-alert .user-edit .clearfix .require-flag {
+      color: red; }
+    .user-edit-alert .user-edit .clearfix textarea {
+      resize: none;
+      height: 80px; }
+    .user-edit-alert .user-edit .clearfix .dropdown-menu {
+      height: 260px;
+      overflow: auto; }
+    .user-edit-alert .user-edit .clearfix .dropdown button, .user-edit-alert .user-edit .clearfix .dropdown .dropdown-menu {
+      width: 100% !important; }
+    .user-edit-alert .user-edit .clearfix .select-role {
+      margin-top: 18px;
+      height: 210px;
+      overflow: auto; }
+      .user-edit-alert .user-edit .clearfix .select-role p {
+        padding: 10px 10px 0;
+        background: #eee; }
+      .user-edit-alert .user-edit .clearfix .select-role ul {
+        background: #eee;
+        padding: 0 10px 10px; }
+        .user-edit-alert .user-edit .clearfix .select-role ul li {
+          height: 30px;
+          line-height: 30px;
+          overflow: hidden;
+          background: #bbb;
+          border-radius: 6px;
+          -webkit-border-radius: 6px;
+          padding: 0 10px;
+          margin: 10px 10px 0 0; }
+          .user-edit-alert .user-edit .clearfix .select-role ul li img {
+            vertical-align: middle;
+            cursor: pointer; }
+    .user-edit-alert .user-edit .modify-show {
+      padding-top: 26px;
+      padding-bottom: 10px; }
+      .user-edit-alert .user-edit .modify-show .cancel-modifyInfo {
+        margin-left: 15px; }
+
+/*# sourceMappingURL=userManagerEditorAlert.css.map */

@@ -1,0 +1,66 @@
+.body-programa-content-list {
+  padding-top: 10px;
+  /*table {
+      border-top: 3px solid #EDEEF3;
+      padding-top: 7px;
+      thead,tbody,th,tr,td {
+          border: 0 !important;
+      }
+      >thead>tr>th,>tbody>tr>td{
+          padding: 15px 30px!important;
+      }
+      &.table-striped>tbody>tr:nth-of-type(odd) {
+          background-color: #eeeff4;
+      }
+  }*/ }
+  .body-programa-content-list .filter-bar {
+    width: 100%;
+    line-height: 70px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #EDEEF3; }
+    .body-programa-content-list .filter-bar .search-input {
+      position: relative; }
+      .body-programa-content-list .filter-bar .search-input input {
+        width: 100%;
+        outline: none;
+        height: 34px;
+        padding: 6px 12px;
+        border: 0;
+        background: #f2f2f2;
+        border-radius: 100px;
+        padding-left: 20px; }
+      .body-programa-content-list .filter-bar .search-input input::-ms-input-placeholder, .body-programa-content-list .filter-bar .search-input input::-webkit-input-placeholder {
+        color: #000;
+        filter: alpha(opacity=20);
+        opacity: .2; }
+      .body-programa-content-list .filter-bar .search-input > img {
+        position: absolute;
+        top: 28px;
+        right: 13px;
+        cursor: pointer; }
+  .body-programa-content-list .programa-title-list-wrap {
+    overflow: auto;
+    width: 100%;
+    padding-right: 10px; }
+    .body-programa-content-list .programa-title-list-wrap ul > li:nth-of-type(odd) {
+      background-color: #eeeff4; }
+  .body-programa-content-list .nav-paging ul {
+    margin: 13px auto 18px; }
+  .body-programa-content-list .programa-title-list-ul {
+    height: 50px;
+    line-height: 50px;
+    padding-top: 7px; }
+  .body-programa-content-list .programa-title-list-ul li, .body-programa-content-list .programa-title-list-wrap li {
+    cursor: pointer;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px; }
+    .body-programa-content-list .programa-title-list-ul li .title, .body-programa-content-list .programa-title-list-wrap li .title {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding-right: 10px; }
+
+/*# sourceMappingURL=devFramework.css.map */

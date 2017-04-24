@@ -1,0 +1,43 @@
+.body-detail {
+  height: inherit; }
+  .body-detail .bread-crumbs {
+    font-size: 14px;
+    cursor: pointer; }
+    .body-detail .bread-crumbs .back-to-list {
+      opacity: .7; }
+    .body-detail .bread-crumbs > span.current-title {
+      color: #478EFF; }
+  .body-detail .detail-title {
+    height: 70px;
+    line-height: 70px;
+    margin-top: 20px;
+    border-bottom: 3px solid #EDEEF3; }
+    .body-detail .detail-title .current-title {
+      font-size: 24px;
+      padding: 0; }
+    .body-detail .detail-title .current-source {
+      text-align: right;
+      font-size: 14px;
+      opacity: .6; }
+      .body-detail .detail-title .current-source > span {
+        color: #000;
+        margin-right: 20px; }
+  .body-detail .description {
+    font-size: 12px;
+    padding: 16px 30px;
+    margin-top: 16px;
+    background: #f1f1f1; }
+  .body-detail .content {
+    font-size: 14px;
+    color: #000;
+    opacity: .9;
+    padding-top: 20px;
+    line-height: 24px;
+    text-indent: 2em; }
+  .body-detail .detail-content {
+    height: 500px; }
+
+.body-detail-editor {
+  height: inherit; }
+
+/*# sourceMappingURL=detail.css.map */

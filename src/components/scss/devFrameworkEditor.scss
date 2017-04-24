@@ -1,0 +1,84 @@
+.body-programa-content-editor {
+    padding-right: 10px;
+    .operate-btn-group {
+        height: 64px;
+        .search-input{
+            position: relative;
+            input{
+                width: 100%;
+                outline: none;
+                height: 34px;
+                padding: 6px 12px;
+                border: 0;
+                background: #f2f2f2;
+                border-radius: 100px;
+                padding-left: 20px;
+            }
+            input::-ms-input-placeholder,input::-webkit-input-placeholder{
+                color: #000;
+                filter: alpha(opacity=20);
+                opacity: .2;
+            }
+
+            >img{
+                position: absolute;
+                top: 11px;
+                right: 13px;
+                cursor: pointer;;
+            }
+        }
+    }
+
+    .programa-title-editor-list-wrap {
+        overflow: auto;
+        padding-left: 15px;
+        padding-right: 6px;
+        ul {
+            >li{
+                &:nth-of-type(odd) {
+                    background-color: #eeeff4;
+                }
+            }
+        }
+    }
+
+    .programa-title-editor-list-ul {
+        border-top: 3px solid #EDEEF3;
+        padding-top: 7px;
+    }
+
+    .programa-title-editor-list-ul, .programa-title-editor-list-wrap{
+        li {
+            cursor: pointer;
+            font-size: 14px;
+            height: 50px;
+            line-height: 50px;
+            padding: 0 20px;
+            .title {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                padding-right: 10px;
+            }
+            &.title,&.list {
+                .checkbox {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    text-align: left;
+                }
+                .pull-right {
+                    text-align: center;
+                }
+                .col-md-2 {
+                    background: transparent;
+                }
+            }
+            &.list {
+                i {
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}
+

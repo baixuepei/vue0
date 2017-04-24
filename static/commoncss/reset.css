@@ -1,0 +1,126 @@
+/* Reset
+***************************************************************/
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+/* Remember focus styles! */
+:focus { outline: 0; }
+
+ol, ul { list-style: none; }
+
+/* Tables still need 'cellSpacing="0"' in the markup */
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight: normal; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+/* HTML 5 elements as block */
+header, footer, aside, nav, article { display: block; }
+
+body{
+    line-height: 1;
+    font-size: 81.3%;
+    color: #434343;
+    background: #fff;
+    font-family:'Open Sans','Helvetica Neue','Arial','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Microsoft YaHei UI'!important;
+}
+/* Clearing Floats
+***************************************************************/
+.clear-float:after{
+    content: ".";
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clear-float{
+    zoom: 1\9;
+}
+/* Line Through Title
+**************************************************************/
+.line-through{
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 auto 40px;
+    position: relative;
+}
+.line-through h2{
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+    z-index: 3;
+    display: table;
+    padding:0 15px;
+}
+.line-through:after{
+    content: "";
+    position: absolute;
+    top: 36px;
+    width: 100%;
+    border-top: 1px solid #cccccc;
+}
+
+.align-middle{
+    margin: 0 auto;
+    padding-top: 20px;
+    float: none !important;
+    clear: both;
+}
+/* font class
+******************************************************/
+/*@font-face {
+    font-family: "iconfont";
+    src: url("../Fonts/iconfont.eot"); !* IE9*!
+    src: url("../Fonts/iconfont.eot?#iefix") format("embedded-opentype"), !* IE6-IE8 *!
+    url("../Fonts/iconfont.woff") format("woff"), !* chrome銆乫irefox *!
+    url("../Fonts/iconfont.ttf") format("truetype"), !* chrome銆乫irefox銆乷pera銆丼afari, Android, iOS 4.2+*!
+    url("../Fonts/iconfont.svg#uxiconfont") format("svg"); !* iOS 4.1- *!
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-style: normal;
+}*/
+/* return page top
+*******************************************************/
+.back-top{
+     display: none;
+     position: fixed;
+     text-align: center;
+     border:1px solid #eee;
+     bottom: 50px;
+     border-radius: 3px;
+     box-shadow: 0 0 7px #ccc;
+     right: 20px;
+}
+.back-top i,
+.back-top img{
+    display: block;
+    margin-top: 10px;
+}
+.back-top img{
+    margin-top: 20px;
+    margin-bottom:10px;
+}
+body hr{
+    margin-top: 0;
+    margin-bottom:0;
+}

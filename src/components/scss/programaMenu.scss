@@ -1,0 +1,80 @@
+.body-programa-menu {
+    height: inherit;
+    ul.nav-programa {
+        height: 100%;
+        .triangle{
+            position:relative;
+            //border:1px #000000 solid;
+        }
+        .triangle:after{
+            content:"";
+            width:0px;
+            height:0px;
+            display:block;
+            position:absolute;
+            z-index:2;
+            top:35%;
+            right:-1px;
+            border:8px solid #EDEEF3;
+            border-color: transparent #EDEEF3 transparent transparent ;
+        }
+        .triangle:before{
+            content:"";
+            width:0px;
+            height:0px;
+            display:block;
+            position:absolute;
+            z-index:1;
+            top:35%;
+            right:-1px;
+            border:8px solid #FFF;
+            border-color:  transparent #000 transparent transparent;
+        }
+        >li {
+            margin: 0;
+            padding: 0;
+            border-bottom: 1px solid #000;
+            font-size: 14px;
+            line-height: 39px;
+            text-align: center;
+
+            a {
+                color: #fff;
+                opacity: .5;
+                &:hover,&:focus {
+                    opacity: .3;
+                    background: #666666;
+                    //background: url("../../assets/images/bg-menu.png") no-repeat;
+                    //background-size: 100% 100%;
+                    color: #478EFF;
+                    opacity: 1;
+                }
+                &.disable {
+
+                }
+                &.active {
+                    opacity: .3;
+                    background: #666666;
+                    //background: url("../../assets/images/bg-menu.png") no-repeat;
+                    //background-size: 100% 100%;
+                    color: #478EFF;
+                    opacity: 1;
+                }
+                i {
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+.body-programa-menu-overlay {
+    width: 15%;
+    height: inherit;
+    z-index: 100;
+    opacity: .2;
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 76px;
+    left: 0;
+}

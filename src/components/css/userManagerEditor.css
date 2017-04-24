@@ -1,0 +1,29 @@
+.body-user-list-editor {
+  padding-right: 10px; }
+  .body-user-list-editor .operate-btn-group {
+    height: 64px; }
+  .body-user-list-editor .user-list-editor-wrap {
+    overflow: auto;
+    padding-right: 6px; }
+    .body-user-list-editor .user-list-editor-wrap ul {
+      width: 100%; }
+      .body-user-list-editor .user-list-editor-wrap ul > li:nth-of-type(odd) {
+        background-color: #eeeff4; }
+  .body-user-list-editor .user-list-editor-ul {
+    border-top: 3px solid #EDEEF3;
+    padding-top: 7px; }
+  .body-user-list-editor .user-list-editor-ul li, .body-user-list-editor .user-list-editor-wrap li {
+    cursor: pointer;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    text-align: center; }
+    .body-user-list-editor .user-list-editor-ul li .checkbox, .body-user-list-editor .user-list-editor-wrap li .checkbox {
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: left; }
+    .body-user-list-editor .user-list-editor-ul li.list i, .body-user-list-editor .user-list-editor-wrap li.list i {
+      margin-right: 15px; }
+
+/*# sourceMappingURL=userManagerEditor.css.map */
